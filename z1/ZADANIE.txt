@@ -1,0 +1,18 @@
+Napisaæ program, który zawiera trzy klasy: Vehicle, Car, RacingCar. Klasa Car jest podklas¹ klasy Vehicle, klasa RacingCar
+jest podklas¹ klasy Car.
+
+Klasa Vehicle posiada pole int speed, którego wartoœæ jest podana poprzez konstruktor; ponadto posiada ona wirtualn¹ metodê
+printSpeed(), która wypisuje ww. prêdkoœæ.
+
+Klasa Car posiada pole string brand, jego wartoœæ podawana jest poprzez konstruktor. Klasa Car posiada wirtualn¹ metodê
+showBrand(), która wypisuje markê samochodu.
+
+Klasa RacingCar posiada pole int fuel; wartoœæ podawana poprzez konstruktor. Klasa RacingCar posiada metodê checkFuel(),
+która wypisuje stan paliwa, a jeœli jest on zbyt niski (za³ó¿my, ¿e poni¿ej 5 litrów), to zaleca wizytê u Pit-Stopu ;)
+
+Napisaæ funkcjê generateRandomObject generuj¹c¹ obiekt losowo wybranej klasy z losowymi wartoœciami wszystkich parametrów konstruktora
+(losowanie nazwy samochodu polega na wybieraniu losowego elementu z tablicy przechowujacej nazwy).
+
+W mainie, u¿ywaj¹c wczeœniej napisanej funkcji, wylosowaæ 10 obiektów, a nastêpnie przekazaæ u¿ytkownikowi wszystkie mo¿liwe
+informacje o powy¿szych obiektach (wywo³aæ wszystkie dostêpne dla danego obiektu metody i u¿ywaj¹c typeid wypisaæ do jakiej 
+klasy nale¿y).
